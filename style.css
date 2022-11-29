@@ -1,0 +1,2169 @@
+@font-face {
+  font-family: "Abel";
+  src: url("//db.onlinewebfonts.com/t/75e8975966c040d18b299029193d3b1f.eot");
+  src: url("//db.onlinewebfonts.com/t/75e8975966c040d18b299029193d3b1f.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/75e8975966c040d18b299029193d3b1f.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/75e8975966c040d18b299029193d3b1f.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/75e8975966c040d18b299029193d3b1f.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/75e8975966c040d18b299029193d3b1f.svg#Abel")
+      format("svg");
+}
+@import url(//db.onlinewebfonts.com/c/75e8975966c040d18b299029193d3b1f?family=Abel);
+@font-face {
+  font-family: "JudgemeStar";
+  src: url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAScAA0AAAAABrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEgAAAABoAAAAcbyQ+3kdERUYAAARgAAAAHgAAACAAMwAGT1MvMgAAAZgAAABGAAAAVi+vS9xjbWFwAAAB8AAAAEAAAAFKwBMjvmdhc3AAAARYAAAACAAAAAj//wADZ2x5ZgAAAkAAAAEJAAABdH33LXtoZWFkAAABMAAAAC0AAAA2BroQKWhoZWEAAAFgAAAAHAAAACQD5QHQaG10eAAAAeAAAAAPAAAAFAYAAABsb2NhAAACMAAAAA4AAAAOAO4AeG1heHAAAAF8AAAAHAAAACAASgAvbmFtZQAAA0wAAADeAAABkorWfVZwb3N0AAAELAAAACkAAABEp3ubLXgBY2BkYADhPPP4OfH8Nl8ZuJkYQODS2fRrCPr/aSYGxq1ALgcDWBoAO60LkwAAAHgBY2BkYGDc+v80gx4TAwgASaAICmABAFB+Arl4AWNgZGBgYGPQYWBiAAIwyQgWc2AAAwAHVQB6eAFjYGRiYJzAwMrAwejDmMbAwOAOpb8ySDK0MDAwMbByMsCBAAMCBKS5pjA4PGB4wMR44P8BBj3GrQymQGFGkBwAjtgK/gAAeAFjYoAAEA1jAwAAZAAHAHgB3crBCcAwDEPRZydkih567CDdf4ZskmLwFBV8xBfCaC4BXkOUmx4sU0h2ngNb9V0vQCxaRKIAevT7fGWuBrEAAAAAAAAAAAA0AHgAugAAeAF9z79Kw1AUx/FzTm7un6QmJtwmQ5Bg1abgEGr/BAqlU6Gju+Cgg1MkQ/sA7Vj7BOnmO/gUvo2Lo14NqIO6/IazfD8HEODtmQCfoANwNsyp2/GJt3WKQrd1NLiYYWx2PBqOsmJMEOznPOTzfSCrhAtbbLdmeFLJV9eKd63WLrZcIcuaEVdssWCKM6pLCfTVOYbz/0pNSMSZKLIZpvh78sAUH6PlMrreTCabP9r+Z/puPZ2ur/RqpQHgh+MIegCnXeM4MRAPjYN//5tj4ZtTjkFqEdmeMShlEJ7tVAly2TAkx6R68Fl4E/aVvn8JqHFQ4JS1434gXKcuL31dDhzs3YbsEOAd/IU88gAAAHgBfY4xTgMxEEVfkk0AgRCioKFxQYd2ZRtpixxgRU2RfhU5q5VWseQ4JdfgAJyBlmNwAM7ABRhZQ0ORwp7nr+eZAa54YwYg9zm3ynPOeFRe8MCrciXOh/KSS76UV5L/iDmrLiS5AeU519wrL3jmSbkS5115yR2fyivJv9kx0ZMZ2RLZw27q87iNQi8EBo5FSPIMw3HqBboi5lKTGAGDp8FKXWP+t9TU01Lj5His1Ba6uM9dTEMwvrFmbf5GC/q2drW3ruXUhhsCiQOjznFlCzYhHUZp4xp76vsvQh89CQAAeAFjYGJABowM6IANLMrEyMTIzMjCXpyRWJBqZshWXJJYBKOMAFHFBucAAAAAAAAB//8AAngBY2BkYGDgA2IJBhBgAvKZGViBJAuYxwAABJsAOgAAeAFjYGBgZACCk535hiD60tn0azAaAEqpB6wAAA==)
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JudgemeStar";
+  src: url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAScAA0AAAAABrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEgAAAABoAAAAcbyQ+3kdERUYAAARgAAAAHgAAACAAMwAGT1MvMgAAAZgAAABGAAAAVi+vS9xjbWFwAAAB8AAAAEAAAAFKwBMjvmdhc3AAAARYAAAACAAAAAj//wADZ2x5ZgAAAkAAAAEJAAABdH33LXtoZWFkAAABMAAAAC0AAAA2BroQKWhoZWEAAAFgAAAAHAAAACQD5QHQaG10eAAAAeAAAAAPAAAAFAYAAABsb2NhAAACMAAAAA4AAAAOAO4AeG1heHAAAAF8AAAAHAAAACAASgAvbmFtZQAAA0wAAADeAAABkorWfVZwb3N0AAAELAAAACkAAABEp3ubLXgBY2BkYADhPPP4OfH8Nl8ZuJkYQODS2fRrCPr/aSYGxq1ALgcDWBoAO60LkwAAAHgBY2BkYGDc+v80gx4TAwgASaAICmABAFB+Arl4AWNgZGBgYGPQYWBiAAIwyQgWc2AAAwAHVQB6eAFjYGRiYJzAwMrAwejDmMbAwOAOpb8ySDK0MDAwMbByMsCBAAMCBKS5pjA4PGB4wMR44P8BBj3GrQymQGFGkBwAjtgK/gAAeAFjYoAAEA1jAwAAZAAHAHgB3crBCcAwDEPRZydkih567CDdf4ZskmLwFBV8xBfCaC4BXkOUmx4sU0h2ngNb9V0vQCxaRKIAevT7fGWuBrEAAAAAAAAAAAA0AHgAugAAeAF9z79Kw1AUx/FzTm7un6QmJtwmQ5Bg1abgEGr/BAqlU6Gju+Cgg1MkQ/sA7Vj7BOnmO/gUvo2Lo14NqIO6/IazfD8HEODtmQCfoANwNsyp2/GJt3WKQrd1NLiYYWx2PBqOsmJMEOznPOTzfSCrhAtbbLdmeFLJV9eKd63WLrZcIcuaEVdssWCKM6pLCfTVOYbz/0pNSMSZKLIZpvh78sAUH6PlMrreTCabP9r+Z/puPZ2ur/RqpQHgh+MIegCnXeM4MRAPjYN//5tj4ZtTjkFqEdmeMShlEJ7tVAly2TAkx6R68Fl4E/aVvn8JqHFQ4JS1434gXKcuL31dDhzs3YbsEOAd/IU88gAAAHgBfY4xTgMxEEVfkk0AgRCioKFxQYd2ZRtpixxgRU2RfhU5q5VWseQ4JdfgAJyBlmNwAM7ABRhZQ0ORwp7nr+eZAa54YwYg9zm3ynPOeFRe8MCrciXOh/KSS76UV5L/iDmrLiS5AeU519wrL3jmSbkS5115yR2fyivJv9kx0ZMZ2RLZw27q87iNQi8EBo5FSPIMw3HqBboi5lKTGAGDp8FKXWP+t9TU01Lj5His1Ba6uM9dTEMwvrFmbf5GC/q2drW3ruXUhhsCiQOjznFlCzYhHUZp4xp76vsvQh89CQAAeAFjYGJABowM6IANLMrEyMTIzMjCXpyRWJBqZshWXJJYBKOMAFHFBucAAAAAAAAB//8AAngBY2BkYGDgA2IJBhBgAvKZGViBJAuYxwAABJsAOgAAeAFjYGBgZACCk535hiD60tn0azAaAEqpB6wAAA==)
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: FontColors;
+  src: url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.eot?v=13334258342476485424);
+  src: url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.eot?%23iefix&v=13334258342476485424)
+      format("embedded-opentype"),
+    url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.woff?v=17032494626082642867)
+      format("woff"),
+    url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.ttf?v=15693539506812588010)
+      format("truetype"),
+    url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.svg?v=18390841554933944910)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: FontColors;
+  src: url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.eot?v=133342583424764854241651845026);
+  src: url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.eot?%23iefix&v=133342583424764854241651845026)
+      format("embedded-opentype"),
+    url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.woff?v=170324946260826428671651845029)
+      format("woff"),
+    url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.ttf?v=156935395068125880101651845028)
+      format("truetype"),
+    url(//cdn.shopify.com/s/files/1/0081/8049/8491/t/48/assets/colors.svg?v=183908415549339449101651845028)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Abel;
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://fonts.shopifycdn.com/abel/abel_n4.2b4bc5e26465e4423e1674428c5593b0074dff23.woff2?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=7c3a3812cfb6dd8fcc7b50429dc4346a829061f40b61d16ab5e238e7ed2eaa80)
+      format("woff2"),
+    url(https://fonts.shopifycdn.com/abel/abel_n4.0ee737a0dba62c4db0b41249f4fa9e628bc93fa3.woff?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=82004bd9573b7d395c9c42e3f1c4a5edb1d5fd83c28ae15ec998ebf9e04acc49)
+      format("woff");
+}
+@font-face {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPbh5uGM.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Abel;
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://fonts.shopifycdn.com/abel/abel_n4.2b4bc5e26465e4423e1674428c5593b0074dff23.woff2?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=7c3a3812cfb6dd8fcc7b50429dc4346a829061f40b61d16ab5e238e7ed2eaa80)
+      format("woff2"),
+    url(https://fonts.shopifycdn.com/abel/abel_n4.0ee737a0dba62c4db0b41249f4fa9e628bc93fa3.woff?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=82004bd9573b7d395c9c42e3f1c4a5edb1d5fd83c28ae15ec998ebf9e04acc49)
+      format("woff");
+}
+@font-face {
+  font-family: Maven Pro;
+  font-weight: 500;
+  font-style: normal;
+  src: url(https://fonts.shopifycdn.com/maven_pro/mavenpro_n5.79758b0963df6f6cdd8c581ce5b4cb9fa69f85c8.woff2?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=5a0eb789d4addfebbb4297918e6abed3110be66e71c38bc4ff30919a8df68801)
+      format("woff2"),
+    url(https://fonts.shopifycdn.com/maven_pro/mavenpro_n5.3a1406e58a7024cdee85af2ed6cb6b8fcbc628cf.woff?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=d23b7b90bd16adf0f3289e0d4753c240be21af3b71db2da94f0781ebd30014b7)
+      format("woff");
+}
+@font-face {
+  font-family: Maven Pro;
+  font-weight: 700;
+  font-style: normal;
+  src: url(https://fonts.shopifycdn.com/maven_pro/mavenpro_n7.e506aba5117dad0788c3d4b353911c4b801e66e9.woff2?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=213a01ea5c76a29a48f50ab034deb36519703124b226e2616e29f606b1039803)
+      format("woff2"),
+    url(https://fonts.shopifycdn.com/maven_pro/mavenpro_n7.7a5d367fc988e2cc2a9bc8637fbc2f9ddf748d18.woff?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=beb014995eea4919a65c0418b41f51d85065bbe151c9291a99f4bdbc27b41888)
+      format("woff");
+}
+@font-face {
+  font-family: Maven Pro;
+  font-weight: 500;
+  font-style: normal;
+  src: url(https://fonts.shopifycdn.com/maven_pro/mavenpro_n5.79758b0963df6f6cdd8c581ce5b4cb9fa69f85c8.woff2?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=5a0eb789d4addfebbb4297918e6abed3110be66e71c38bc4ff30919a8df68801)
+      format("woff2"),
+    url(https://fonts.shopifycdn.com/maven_pro/mavenpro_n5.3a1406e58a7024cdee85af2ed6cb6b8fcbc628cf.woff?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=d23b7b90bd16adf0f3289e0d4753c240be21af3b71db2da94f0781ebd30014b7)
+      format("woff");
+}
+@font-face {
+  font-family: Maven Pro;
+  font-weight: 700;
+  font-style: normal;
+  src: url(https://fonts.shopifycdn.com/maven_pro/mavenpro_n7.e506aba5117dad0788c3d4b353911c4b801e66e9.woff2?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=213a01ea5c76a29a48f50ab034deb36519703124b226e2616e29f606b1039803)
+      format("woff2"),
+    url(https://fonts.shopifycdn.com/maven_pro/mavenpro_n7.7a5d367fc988e2cc2a9bc8637fbc2f9ddf748d18.woff?h1=dGhlc3R1YmJ5Y2x1Yi5jb20uYXU&hmac=beb014995eea4919a65c0418b41f51d85065bbe151c9291a99f4bdbc27b41888)
+      format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width:100%;
+  overflow-x:hidden;
+  }
+
+/*Topbar*/
+/* Add a black background color to the top navigation */
+.devTopRetailerButton a {
+  background-color: #f26515;
+  color: #fff;
+  text-decoration: none;
+  width: 178px;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0;
+  line-height: 1;
+}
+.topna {
+  line-height: 25px;
+  font-size: 18px !important;
+  text-align: center;
+  font-weight: 400 !important;
+  box-sizing: border-box;
+}
+#bag {
+  width: 32px;
+  height: auto;
+  display: block;
+  border: 0px;
+}
+
+.topna p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #1a1818;
+  font-weight: 400;
+  font-family: "Abel";
+}
+
+.main_log {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  height: 99px;
+  background-color: #c7c9cb;
+}
+i#search1 {
+  position: absolute;
+  top: 103px;
+  color: #fff;
+  right: 520px;
+}
+.main_log .log1 {
+  position: relative;
+  left: 158px;
+}
+.main_log .log2 {
+  position: relative;
+  left: 78px;
+}
+.main_log .log4 label input {
+  position: relative;
+  width: 404px;
+  height: 44px;
+  background-color: #ffffff;
+}
+#cart {
+  width: 68px;
+  height: 49px;
+  position: absolute;
+  top: 21px;
+  right: 22px;
+  align-items: center;
+}
+.log7 img {
+  position: absolute;
+  right: 167px;
+  top: 105px;
+}
+.containeer {
+  color: #faf1f1;
+  text-align: center;
+  text-decoration: none;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 195px;
+  background-image: linear-gradient(0deg, #f67a1d 0%, #f5781c 3%, #f05d1c 56%);
+}
+.section50 input {
+  width: 427px;
+  height: 36px;
+}
+
+.log {
+  flex: 1;
+  height: auto;
+  width: 100%;
+}
+.logo33 {
+  padding-left: 35%;
+  margin-top: 61px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #221f1f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%;
+}
+#top2 {
+  background-color: #221f1f;
+  color: #f9fafc;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+.nfl-bar {
+  display: flex;
+  width: 1359px;
+  height: 34px;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Abel";
+  text-align: center;
+  gap: 22px;
+  justify-content: center;
+}
+.main_top_btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  justify-items: center;
+  padding-left: 500px;
+}
+.my_account {
+  display: grid;
+  width: 147px;
+  height: 61px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #818386;
+  font-weight: 400;
+  font-family: "Abel";
+}
+.topna {
+  line-height: 25px;
+  font-size: 18px !important;
+  text-align: center;
+  font-weight: 400 !important;
+}
+.block12 {
+  font-family: "Abel";
+  font-size: 41px;
+  font-weight: 400;
+}
+.log6 {
+  width: 105px;
+  height: 98px;
+  background-color: #f26515;
+  position: absolute;
+  top: 70px;
+  right: 216px;
+}
+
+.logo a img {
+  padding-left: 500px;
+}
+
+.mye-logo-container1 {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  padding: 30px;
+}
+.mye-logo-container1 .mye-logos11 {
+  width: 94px;
+  height: 92px;
+  filter: drop-shadow(86px 22px 30.5px rgba(0, 0, 0, 0.16));
+  background-color: #ffffff;
+}
+.mye-logo-container1,.mye-logos11,.my-image-no{
+  width: 100%;
+  height: 100%;
+}
+.my-logo-container2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+.images-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 112px;
+}
+img.last-logo {
+  position: relative;
+  left: 3px;
+}
+
+.images-list div ul li {
+  list-style: none;
+  padding: 2px;
+}
+
+div#all-teams-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+div#all-teams-section div p {
+  width: 101px;
+  height: 26px;
+  background-color: #ea701f;
+  color: #fff;
+}
+
+#ultima {
+  text-align: center;
+  margin: 39px;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+#wa {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.row {
+  float: right;
+}
+
+#con1 {
+  text-align: center;
+  height: 67px;
+  background-color: #c7c9cb;
+  position: relative;
+  top: 3px;
+}
+div#con1 p {
+  padding: 28px;
+  word-spacing: 14px;
+}
+.section50 p {
+  height: 69px;
+  font-size: 19px;
+  letter-spacing: 2px;
+  line-height: 31px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Abel";
+  text-align: center;
+}
+.containeer {
+  background-color: rgb(244, 173, 20);
+  color: #faf1f1;
+  text-align: center;
+  text-decoration: none;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+#conteneeeer {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Slab", serif;
+  padding-top: 50px;
+  font-size: 66px;
+  line-height: 75px;
+  color: #262525;
+  font-weight: 400;
+  font-family: "Abel";
+  text-align: center;
+}
+#conteneeeer1 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.april-featured {
+  width: 1519px;
+  height: 370px;
+  background-color: #313133;
+}
+.p-april-featured {
+  display: flex;
+  padding-top: 68px;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+.featured-img {
+  height: 248px;
+  border-radius: 13px;
+  filter: drop-shadow(0px 2px 2.5px #313133);
+  border: 2px solid #ffffff;
+  margin-right: 88px;
+}
+.april-featured,.p-april-featured,.featured-img ,.fa-image{
+  width: 100%;
+}
+.april {
+  width: 119px;
+  height: 300px;
+  font-size: 31px;
+  letter-spacing: 5px;
+  line-height: 75px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Abel";
+  text-align: center;
+  position: relative;
+  right: -81px;
+  transform: rotate(270deg);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 96px;
+}
+.image1234 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 59px;
+}
+.image-show123 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding-top: 33px;
+}
+.image1234 img {
+  width: 654px;
+  height: 370px;
+}
+.image-show123 img {
+  height: 306px;
+  width: 472px;
+}
+/*logo1*/
+
+.mye-logo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.mye-logos {
+  flex: 1;
+  height: auto;
+  width: 100%;
+}
+.mye-logo-container .mye-logos img {
+  width: 100%;
+}
+
+/*logo2*/
+
+.my-logo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.my-logos {
+  flex: 1;
+  height: auto;
+  width: 100%;
+}
+
+/*Footer Menu*/
+.fcolldsd {
+  display: flex;
+  width: fit-content;
+}
+#data {
+  /*padding-left: 700px;*/
+}
+
+.div33 {
+  background-color: #f9fafc;
+  color: black;
+  overflow: auto;
+}
+.div33 {
+  width: 33.33%;
+  float: left;
+  padding: 25px 50px;
+  box-sizing: border-box;
+}
+.div33 h3 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+#footer-menu {
+  list-style-type: none;
+  padding: 0px;
+}
+#footer-menu li {
+  padding-bottom: 10px;
+}
+#footer-menu li a {
+  text-decoration: none;
+  color: white;
+}
+#footer-menu-container {
+  padding-left: 100px;
+}
+#copyright {
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-family: "Abel";
+}
+.focal-menu ul li a {
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+.focal-menu ul {
+  list-style: none;
+}
+.focal-menu {
+  padding-top: 25px;
+}
+.focal.menu h3 {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.focal.menu ul li {
+  margin-top: 7px;
+}
+.focal-menu {
+  width: 12.5%;
+  float: left;
+  color: #000;
+  padding: 0 1%;
+}
+.focal-menu h3 {
+  color: #000000;
+  font: small;
+}
+.all-images22 {
+  zoom: 88%;
+}
+.uni-padding img {
+  max-width: 100%;
+  height: auto;
+}
+.all-images-img {
+  zoom: 85%;
+}
+.all-images {
+  zoom: 89%;
+  padding-left: 18px;
+}
+.fcolldsd {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: end;
+  padding: 30px 9px;
+}
+div#poster {
+  zoom: 101%;
+}
+.focal-menu ul li a {
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  font-family: "Abel";
+  font-size: 13px;
+  margin-top: 7px;
+}
+.focal-menu ul {
+  list-style: none;
+  padding: inherit;
+}
+#data {
+  padding-left: 963px;
+}
+/*@media only screen and (max-width: 1840px){
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  .main_top_btn{
+    position: relative;
+    right: 351px;
+  }
+  .main_top_btn .topna p{
+    font-size: 23px;
+    position: absolute;
+    top: 0px;
+    right: 335px;
+  }
+  .my_account{
+    position: relative;
+    left: 385px;
+  }
+  .main_log{
+    height: 78px;
+  }
+  .main_log .log4 label input {
+    position: absolute;
+    width: 377px;
+    top: 83px;
+    right: 629px;
+    height: 37px;
+}
+.log5,#search1{
+  display: none;
+}
+
+.log6 {
+  position: absolute;
+    left: 1346px;
+    top: 61px;
+    height: 77px;
+    width: 80px;
+}
+
+.log7 img {
+  display: none;
+}
+.main_log .log1 .log2 .log3 a img{
+  padding-left: 40px;
+}
+#img1{
+  width: 115px;
+  position: relative;
+  left: -141px;
+  }
+  #img2{
+    position: relative;
+    left: -90px;
+    width: 115px;
+  }
+  #img3{
+    position: relative;
+    left: -30px;
+    width: 115px;
+  }
+  #cart{
+    position: absolute;
+    left: 5px;
+  }
+  #top2, .nfl-bar{
+    width: 100%;
+    font-size: 26px;
+  }
+  .logo33{
+    zoom: 115%;
+    position: relative;
+    right: 49px;
+  }
+  .mye-logo-container1{
+    display: flex;
+    justify-content: center;
+
+}
+.uni-padding img {
+  max-width: 100%;
+  height: auto;
+}
+#con1{
+  width: 100%;
+  font-size: 21px;
+}
+.containeer{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+
+}
+.block12{
+  font-size: 39px;
+}
+.section50 input{
+  width: 412px;
+  height: 33px;
+  margin-top: 52px;
+}
+.section50 p{
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 11px;
+}
+.all-images22{
+  zoom: 95%;
+}
+
+.all-images-img {
+  zoom: 95%;
+}
+
+.all-images{
+  zoom: 96%;
+  padding-left: 24px;
+}
+.stubby-club-image{
+  zoom: 84%;
+}
+.image1234{
+  zoom: 120%;
+}
+.image-show123{
+  zoom: 110%;
+  padding-left: 19px;
+}
+.april-featured{
+  width: 100%;
+    height: 376px;
+}
+.april{
+  font-size: 20px;
+  line-height: 44px;
+  padding: 19px 0px 0px 43px;
+}
+.april,.featured-img{
+  zoom: 112%;
+  position: relative;
+  bottom: 18px;
+}
+img.last-logo {
+  position: relative;
+  left: 4px;
+}
+.p-april-featured,.april,.featured-img{
+  padding-bottom: 30px;
+}
+.my-logo-container2{
+  zoom: 125%;
+}
+.fcolldsd{
+  zoom: 180%;
+}
+.right {
+  padding-left: 18px;
+}
+.images-list{
+  display: flex;
+  column-gap: 177px;
+  font-size: 13px;
+}
+
+#data img{
+  position: relative;
+  right: 50px;
+  zoom: 129%;
+}
+
+#copyright p{
+  font-size: 33px;
+}
+}*/
+
+
+/* @media only screen and (max-width: 1640px){
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  .main_top_btn{
+    position: relative;
+    right: 351px;
+  }
+  .main_top_btn .topna p{
+    font-size: 23px;
+    position: absolute;
+    top: 0px;
+    right: 335px;
+  }
+  .my_account{
+    position: relative;
+    left: 385px;
+  }
+  .main_log{
+    height: 78px;
+  }
+  .main_log .log4 label input {
+    position: absolute;
+    width: 377px;
+    top: 83px;
+    right: 629px;
+    height: 37px;
+}
+.log5,#search1{
+  display: none;
+}
+
+.log6 {
+  position: absolute;
+    left: 1346px;
+    top: 61px;
+    height: 77px;
+    width: 80px;
+}
+
+.log7 img {
+  display: none;
+}
+.main_log .log1 .log2 .log3 a img{
+  padding-left: 40px;
+}
+#img1{
+  width: 115px;
+  position: relative;
+  left: -141px;
+  }
+  #img2{
+    position: relative;
+    left: -90px;
+    width: 115px;
+  }
+  #img3{
+    position: relative;
+    left: -30px;
+    width: 115px;
+  }
+  #cart{
+    position: absolute;
+    left: 5px;
+  }
+  #top2, .nfl-bar{
+    width: 100%;
+    font-size: 26px;
+  }
+  .logo33{
+    zoom: 115%;
+    position: relative;
+    right: 49px;
+  }
+  .mye-logo-container1{
+    display: flex;
+    justify-content: center;
+
+}
+.uni-padding img {
+  max-width: 100%;
+  height: auto;
+}
+#con1{
+  width: 100%;
+  font-size: 21px;
+}
+.containeer{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+
+}
+.block12{
+  font-size: 39px;
+}
+.section50 input{
+  width: 412px;
+  height: 33px;
+  margin-top: 52px;
+}
+.section50 p{
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 11px;
+}
+.all-images22{
+  zoom: 95%;
+}
+
+.all-images-img {
+  zoom: 95%;
+}
+
+.all-images{
+  zoom: 96%;
+  padding-left: 24px;
+}
+.stubby-club-image{
+  zoom: 84%;
+}
+.image1234{
+  zoom: 120%;
+}
+.image-show123{
+  zoom: 110%;
+  padding-left: 19px;
+}
+.april-featured{
+  width: 100%;
+    height: 376px;
+}
+.april{
+  font-size: 20px;
+  line-height: 44px;
+  padding: 19px 0px 0px 43px;
+}
+.april,.featured-img{
+  zoom: 112%;
+  position: relative;
+  bottom: 18px;
+}
+img.last-logo {
+  position: relative;
+  left: 4px;
+}
+.p-april-featured,.april,.featured-img{
+  padding-bottom: 30px;
+}
+.my-logo-container2{
+  zoom: 125%;
+}
+.fcolldsd{
+  zoom: 180%;
+}
+.right {
+  padding-left: 18px;
+}
+.images-list{
+  display: flex;
+  column-gap: 177px;
+  font-size: 13px;
+}
+
+#data img{
+  position: relative;
+  right: 50px;
+  zoom: 129%;
+}
+
+#copyright p{
+  font-size: 33px;
+}
+} */
+@media only screen and (max-width: 1440px){
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  .main_top_btn{
+    position: relative;
+    right: 351px;
+  }
+  .main_top_btn .topna p{
+    font-size: 23px;
+    position: absolute;
+    top: 0px;
+  }
+  .my_account{
+    position: relative;
+    left: 385px;
+  }
+  .main_log{
+    height: 78px;
+  }
+  .main_log .log4 label input {
+    position: absolute;
+    width: 326px;
+    top: 85px;
+    right: 534px;
+    height: 33px;
+}
+.log5,#search1{
+  display: none;
+}
+
+.log6 {
+  position: absolute;
+  left: 1168px;
+  top: 61px;
+  height: 77px;
+  width: 80px;
+}
+.log7 img {
+  display: none;
+}
+.main_log .log1 .log2 .log3 a img{
+  padding-left: 40px;
+}
+#img1{
+  width: 111px;
+  position: relative;
+  left: -141px;
+  }
+  #img2{
+    position: relative;
+    left: -90px;
+    width: 111px;
+  }
+  #img3{
+    position: relative;
+    left: -30px;
+    width: 111px;
+  }
+  #cart{
+    position: absolute;
+    left: 5px;
+  }
+  #top2, .nfl-bar{
+    width: 100%;
+    font-size: 19px;
+  }
+  .logo33{
+    zoom: 115%;
+    position: relative;
+    right: 54px;
+  }
+  .mye-logo-container1{
+    display: flex;
+}
+.uni-padding img {
+  max-width: 100%;
+  height: auto;
+}
+#con1{
+  width: 100%;
+    font-size: 18px;
+
+}
+.containeer{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+
+}
+.block12{
+  font-size: 39px;
+}
+.section50 input{
+  width: 412px;
+  height: 33px;
+  margin-top: 52px;
+}
+.section50 p{
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 11px;
+}
+.all-images22{
+  zoom: 83%;
+}
+
+.all-images-img {
+  zoom: 83%;
+}
+
+.all-images{
+  zoom: 84%;
+  padding-left: 24px;
+}
+.stubby-club-image{
+  zoom: 84%;
+}
+.image1234{
+  zoom: 104%;
+}
+.image-show123{
+  zoom: 95%;
+  padding-left: 19px;
+}
+.april-featured{
+  width: 100%;
+  height: 328px;
+}
+.april{
+  font-size: 20px;
+  line-height: 44px;
+  padding: 19px 0px 0px 43px;
+}
+.april,.featured-img{
+  zoom: 97%;
+  position: relative;
+  bottom: 26px;
+}
+img.last-logo {
+  position: relative;
+  left: 4px;
+}
+.p-april-featured,.april,.featured-img{
+  padding-bottom: 30px;
+}
+.my-logo-container2{
+  zoom: 88%;
+}
+.fcolldsd{
+  zoom: 160%;
+
+}
+.right {
+  padding-left: 18px;
+}
+.images-list{
+  display: flex;
+  column-gap: 114px;
+  font-size: 11px;
+}
+
+#data img{
+  position: relative;
+  right: 120px;
+  zoom: 103%;
+}
+
+#copyright p{
+  font-size: 24px;
+}
+}
+@media only screen and (max-width: 1360px){
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  .main_top_btn{
+    position: relative;
+    right: 351px;
+  }
+  .main_top_btn .topna p{
+    font-size: 21px;
+    position: absolute;
+    top: 0px;
+  }
+  .my_account{
+    position: relative;
+    left: 385px;
+  }
+  .main_log{
+    height: 78px;
+  }
+  .main_log .log4 label input {
+    position: absolute;
+    width: 296px;
+    top: 85px;
+    right: 512px;
+    height: 33px;
+}
+.log5,#search1{
+  display: none;
+}
+
+.log6 {
+  position: absolute;
+  left: 1125px;
+  top: 61px;
+  height: 77px;
+  width: 80px;
+}
+.log7 img {
+  display: none;
+}
+.main_log .log1 .log2 .log3 a img{
+  padding-left: 40px;
+}
+#img1{
+  width: 111px;
+  position: relative;
+  left: -150px;
+  }
+  #img2{
+    position: relative;
+    left: -90px;
+    width: 111px;
+  }
+  #img3{
+    position: relative;
+    left: -30px;
+    width: 111px;
+  }
+  #cart{
+    position: absolute;
+    left: 5px;
+  }
+  #top2, .nfl-bar{
+    width: 100%;
+    font-size: 19px;
+  }
+  .logo33{
+    zoom: 102%;
+    position: relative;
+    right: 98px;
+
+  }
+  .mye-logo-container1{
+    display: flex;
+}
+.uni-padding img {
+  max-width: 100%;
+  height: auto;
+}
+#con1{
+  width: 100%;
+  font-size: 16px;
+}
+.containeer{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+
+}
+.block12{
+  font-size: 31px;
+}
+.section50 input{
+  width: 334px;
+  height: 29px;
+  margin-top: 52px;
+}
+.section50 p{
+  font-size: 14px;
+  line-height: 23px;
+  padding-top: 11px;
+}
+.all-images22{
+  zoom: 78%;
+}
+
+.all-images-img {
+  zoom: 78%;
+}
+
+.all-images{
+  zoom: 79%;
+  padding-left: 24px;
+}
+.stubby-club-image{
+  zoom: 64%;
+}
+.image1234{
+  zoom: 97%;
+}
+.image-show123{
+  zoom: 90%;
+  padding-left: 19px;
+}
+.april-featured{
+  width: 100%;
+  height: 292px;
+}
+.april{
+  font-size: 20px;
+  line-height: 44px;
+  padding: 19px 0px 0px 43px;
+}
+.april,.featured-img{
+  zoom: 84%;
+  position: relative;
+  bottom: 26px;
+}
+img.last-logo {
+  position: relative;
+  left: 4px;
+}
+.p-april-featured,.april,.featured-img{
+  padding-bottom: 30px;
+}
+.my-logo-container2{
+  zoom: 88%;
+}
+.fcolldsd{
+  zoom: 143%;
+}
+.right {
+  padding-left: 18px;
+}
+.images-list{
+  display: flex;
+  column-gap: 114px;
+  font-size: 11px;
+}
+
+#data img{
+  position: relative;
+  right: 239px;
+  zoom: 97%;
+}
+
+#copyright p{
+  font-size: 24px;
+}
+}
+@media only screen and (max-width: 1280px){
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  .main_top_btn{
+    position: relative;
+    right: 351px;
+  }
+  .main_top_btn .topna p{
+    font-size: 18px;
+    position: absolute;
+    top: 0px;
+  }
+  .my_account{
+    position: relative;
+    left: 385px;
+  }
+  .main_log{
+    height: 78px;
+  }
+  .main_log .log4 label input {
+    position: absolute;
+    width: 226px;
+    top: 88px;
+    right: 512px;
+    height: 25px;
+}
+.log5,#search1{
+  display: none;
+}
+
+.log6 {
+  position: absolute;
+  left: 1058px;
+  top: 61px;
+  height: 77px;
+  width: 80px;
+}
+.log7 img {
+  display: none;
+}
+.main_log .log1 .log2 .log3 a img{
+  padding-left: 40px;
+}
+#img1{
+  width: 111px;
+  position: relative;
+  left: -150px;
+  }
+  #img2{
+    position: relative;
+    left: -90px;
+    width: 111px;
+  }
+  #img3{
+    position: relative;
+    left: -30px;
+    width: 111px;
+  }
+  #cart{
+    position: absolute;
+    left: 5px;
+  }
+  #top2, .nfl-bar{
+    width: 100%;
+    font-size: 19px;
+  }
+  .logo33{
+    zoom: 102%;
+    position: relative;
+    right: 98px;
+
+  }
+  .mye-logo-container1{
+    display: flex;
+}
+.uni-padding img {
+  max-width: 100%;
+  height: auto;
+}
+#con1{
+  width: 100%;
+  font-size: 16px;
+}
+.containeer{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+
+}
+.block12{
+  font-size: 31px;
+}
+.section50 input{
+  width: 334px;
+  height: 29px;
+  margin-top: 52px;
+}
+.section50 p{
+  font-size: 14px;
+  line-height: 23px;
+  padding-top: 11px;
+}
+.all-images22{
+  zoom: 74%;
+}
+
+.all-images-img {
+  zoom: 73%;
+}
+.all-images{
+  zoom: 75%;
+  padding-left: 24px;
+}
+.stubby-club-image{
+  zoom: 64%;
+}
+.image1234{
+  zoom: 93%;
+}
+.image-show123{
+  zoom: 84%;
+  padding-left: 12px;
+}
+.april-featured{
+  width: 100%;
+  height: 292px;
+}
+.april{
+  font-size: 20px;
+  line-height: 44px;
+  padding: 19px 0px 0px 43px;
+}
+.april,.featured-img{
+  zoom: 84%;
+  position: relative;
+  bottom: 26px;
+}
+img.last-logo {
+  position: relative;
+  left: 4px;
+}
+.p-april-featured,.april,.featured-img{
+  padding-bottom: 30px;
+}
+.my-logo-container2{
+  zoom: 88%;
+}
+.fcolldsd{
+  zoom: 137%;
+}
+.right {
+  padding-left: 18px;
+}
+.images-list{
+  display: flex;
+  column-gap: 114px;
+  font-size: 11px;
+}
+
+#data img{
+  position: relative;
+  right: 114px;
+  zoom: 62%;
+}
+#copyright p{
+  font-size: 24px;
+}
+}
+@media only screen and (max-width: 1080px){
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  .main_top_btn{
+    position: relative;
+    right: 351px;
+  }
+  .main_top_btn .topna p{
+    font-size: 18px;
+    position: absolute;
+    top: -12px;
+  }
+  .my_account{
+    position: relative;
+    left: 385px;
+  }
+  .main_log{
+    height: 78px;
+  }
+  .main_log .log4 label input {
+    position: absolute;
+    width: 226px;
+    top: 88px;
+    right: 383px;
+    height: 25px;
+}
+.log5,#search1{
+  display: none;
+}
+
+.log6 {
+  position: absolute;
+  left: 887px;
+  top: 61px;
+  height: 77px;
+  width: 80px;
+}
+.log7 img {
+  display: none;
+}
+.main_log .log1 .log2 .log3 a img{
+  padding-left: 40px;
+}
+#img1{
+  width: 92px;
+  position: relative;
+  left: -150px;
+  }
+  #img2{
+    position: relative;
+    left: -90px;
+    width: 92px;
+  }
+  #img3{
+    position: relative;
+    left: -30px;
+    width: 92px;
+  }
+  #cart{
+    position: absolute;
+    left: 5px;
+  }
+  #top2, .nfl-bar{
+    width: 100%;
+    font-size: 19px;
+  }
+  .logo33{
+    zoom: 102%;
+    position: relative;
+    right: 98px;
+
+  }
+  .mye-logo-container1{
+    display: flex;
+}
+.uni-padding img {
+  max-width: 100%;
+  height: auto;
+}
+#con1{
+  width: 100%;
+  font-size: 10px;
+}
+.containeer{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+
+}
+.block12{
+  font-size: 16px;
+}
+.section50 input{
+  width: 158px;
+  height: 29px;
+  margin-top: 52px;
+}
+.section50 p{
+  font-size: 10px;
+  line-height: 13px;
+  padding-top: 11px;
+}
+.all-images22{
+  zoom: 62%;
+}
+
+.all-images-img {
+  zoom: 62%;
+}
+.all-images{
+  zoom: 63%;
+  padding-left: 24px;
+}
+.stubby-club-image{
+  zoom: 50%;
+}
+.image1234{
+  zoom: 79%;
+}
+.image-show123{
+  zoom: 72%;
+  padding-left: 10px;
+}
+.april-featured{
+  width: 100%;
+  height: 234px;
+}
+.april{
+  font-size: 20px;
+    line-height: 44px;
+    padding: 19px 0px 0px 43px;
+}
+.april,.featured-img{
+  zoom: 70%;
+  position: relative;
+  bottom: 49px;
+}
+img.last-logo {
+  position: relative;
+  left: 4px;
+}
+.p-april-featured,.april,.featured-img{
+  padding-bottom: 30px;
+}
+.my-logo-container2{
+  zoom: 88%;
+}
+.fcolldsd{
+  zoom: 117%;
+}
+.right {
+  padding-left: 18px;
+}
+.images-list{
+  display: flex;
+  column-gap: 105px;
+  font-size: 11px;
+}
+
+#data img{
+  position: relative;
+  right: 915px;
+  zoom: 62%;
+}
+#copyright p{
+  font-size: 24px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  .main_top_btn{
+    position: relative;
+    right: 351px;
+  }
+  .main_top_btn .topna p{
+    font-size: 18px;
+    position: absolute;
+    top: -12px;
+  }
+  .my_account{
+    position: relative;
+    left: 385px;
+  }
+  .main_log{
+    height: 78px;
+  }
+  .main_log .log4 label input {
+    position: absolute;
+    width: 226px;
+    top: 88px;
+    right: 225px;
+    height: 25px;
+}
+.log5,#search1{
+  display: none;
+}
+
+.log6 {
+  position: absolute;
+    left: 682px;
+    top: 61px;
+    height: 77px;
+    width: 80px;
+}
+.log7 img {
+  display: none;
+}
+.main_log .log1 .log2 .log3 a img{
+  padding-left: 40px;
+}
+#img1{
+  width: 66px;
+  position: relative;
+  left: -150px;
+  }
+  #img2{
+    position: relative;
+    left: -90px;
+    width: 67px;
+  }
+  #img3{
+    position: relative;
+    left: -30px;
+    width: 66px;
+  }
+  #cart{
+    position: absolute;
+    left: 5px;
+  }
+  #top2, .nfl-bar{
+    width: 100%;
+    font-size: 19px;
+  }
+  .logo33{
+    zoom: 85%;
+    position: relative;
+    right: 148px;
+
+  }
+  .mye-logo-container1{
+    display: flex;
+}
+.uni-padding{
+  zoom: 51%;
+}
+#con1{
+  width: 100%;
+  font-size: 10px;
+}
+.containeer{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+
+}
+.block12{
+  font-size: 16px;
+}
+.section50 input{
+  width: 158px;
+  height: 29px;
+  margin-top: 52px;
+}
+.section50 p{
+  font-size: 10px;
+  line-height: 13px;
+  padding-top: 11px;
+}
+.all-images22{
+  zoom: 44%;
+}
+.all-images-img{
+  zoom: 44%;
+}
+.all-images{
+  zoom: 45%;
+  padding-left: 18px;
+}
+.stubby-club-image{
+  zoom: 50%;
+}
+.image1234{
+  zoom: 55%
+}
+.image-show123{
+  zoom: 49%;
+}
+.april-featured{
+  width: 100%;
+  height: 181px;
+}
+.april{
+  font-size: 20px;
+    line-height: 44px;
+    padding: 19px 0px 0px 43px;
+}
+.april,.featured-img{
+  zoom: 50%;
+  position: relative;
+  bottom: 77px;
+}
+.p-april-featured,.april,.featured-img{
+  padding-bottom: 30px;
+}
+.my-logo-container2{
+  zoom: 43%;
+}
+.fcolldsd{
+  zoom: 88%;
+}
+.right {
+  padding-left: 18px;
+}
+.images-list{
+  display: flex;
+  column-gap: 46px;
+  font-size: 7px;
+}
+#data img{
+  position: relative;
+  right: 915px;
+  zoom: 62%;
+}
+}
+@media only screen and (max-width: 480px) {
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  .my_account{
+    position: relative;
+    left: 214px;
+  }
+  .main_top_btn {
+    position: relative;
+    right: 351px;
+  }
+  .main_top_btn .topna p {
+    display:none;
+  }
+  .main_log {
+    height: 78px;
+  }
+  .main_log .log4 label input {
+    position: absolute;
+    width: 226px;
+    top: 86px;
+    right: 84px;
+    height: 25px;
+  }
+
+  .log6 {
+    position: absolute;
+    left: 401px;
+    top: 61px;
+    width: 16%;
+    height: 78px;
+}
+  .log7 img {
+    display: none;
+  }
+  .main_log .log1 .log2 .log3 a img {
+    padding-left: 40px;
+  }
+  #img1 {
+    width: 59px;
+    position: relative;
+    left: -157px;
+  }
+  #img2 {
+    position: relative;
+    left: -90px;
+    width: 59px;
+  }
+  #img3 {
+    position: relative;
+    left: -30px;
+    width: 59px;
+  }
+  #cart {
+    position: absolute;
+    left: 8px;
+    width: 49px;
+    height: 34px;
+  }
+  #top2,
+  .nfl-bar {
+    width: 100%;
+    font-size: 10px;
+  }
+  .logo33 {
+    zoom: 85%;
+    position: relative;
+    right: 182px;
+  }
+  .mye-logo-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .uni-padding {
+    zoom: 32%;
+    padding-left: 0px;
+  }
+  #con1 {
+    width: 100%;
+    font-size: 10px;
+  }
+  .containeer {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+  }
+  .block12 {
+    font-size: 16px;
+  }
+  .section50 input {
+    width: 158px;
+    height: 29px;
+    margin-top: 52px;
+  }
+  .section50 p {
+    font-size: 10px;
+    line-height: 13px;
+    padding-top: 11px;
+  }
+  .all-images22{
+    zoom: 28%;
+  }
+  .all-images-img{
+    zoom: 28%;
+  }
+  .all-images{
+    zoom: 28%;
+    padding-left: 27px;
+  }
+  .fcolldsd{
+    zoom: 54%;
+    font-size: 29px;
+  }
+  .stubby-club-image {
+    zoom: 50%;
+  }
+  .image1234 {
+    zoom: 34%;
+  }
+  .image-show123 {
+    zoom: 30%;
+    margin-left: 31px;
+  }
+  .april-featured {
+    width: 100%;
+    height: 181px;
+  }
+  .april {
+    font-size: 20px;
+    line-height: 44px;
+    padding: 19px 0px 0px 43px;
+  }
+  .april,
+  .featured-img {
+    zoom: 35%;
+    position: relative;
+    bottom: 66px;
+  }
+  .p-april-featured,
+  .april,
+  .featured-img {
+    padding-bottom: 30px;
+  }
+  .my-logo-container2 {
+    zoom:41%;
+  }
+  .images-list {
+    display: flex;
+    column-gap: 41px;
+    font-size: 7px;
+  }
+  #data img {
+    position: relative;
+    right: 1465px;
+    zoom: 62%;
+  }
+}
+@media only screen and (max-width: 280px){
+ .my_account{
+   display: grid;
+   width: 111px;
+   height: 61px;
+   font-size: 17px;
+   line-height: 22px;
+   color: #818386;
+   font-weight: 400;
+   font-family: "Abel";
+   margin-left: -214px;
+
+ }
+ .main_top_btn{
+   position: relative;
+   right: 351px;
+ }
+ .main_top_btn .topna p{
+   display: none;
+ }
+ 
+ .main_log .log4 label input {
+   position: absolute;
+   width: 99px;
+   top: 106px;
+   right: 123px;
+   height: 25px;
+}
+
+.log6 {
+  position: absolute;
+    left: 221px;
+    top: 61px;
+    width: 20%;
+    height: 78px;
+}
+.log7 img {
+ display: none;
+}
+.main_log .log1 .log2 .log3 a img{
+ padding-left: 40px;
+}
+#img1{
+ width: 59px;
+ position: relative;
+ left: -144px;
+ top: -11px;
+}
+#img2{
+ position: relative;
+ left: -59px;
+ width: 59px;
+ top: -11px;
+}
+#img3{
+ position: relative;
+ left: 17px;
+ width: 59px;
+ top: -10px;
+}
+#cart{
+ position: absolute;
+ left: 9px;
+ top: 17px;
+ width: 48px;
+}
+
+#top2, .nfl-bar{
+ width: 100%;
+ font-size: 11px;
+ display: flex;
+ gap: 2px;
+}
+
+.logo33{
+ zoom: 50%;
+ position: relative;
+ right: 182px;
+
+}
+.mye-logo-container1{
+ display: block;
+ padding-left: 100px;
+}
+
+.uni-padding{
+ zoom: 19%;
+ padding-left: 0px;
+}
+#con1{
+ width: 102%;
+ font-size: 10px;
+}
+.containeer{
+ width: 101%;
+ height: 146px;
+ overflow: hidden;
+
+}
+.block12{
+font-size: 16px;
+}
+.section50 input{
+  width: 158px;
+    height: 29px;
+    margin-top: 52px;
+
+}
+.section50 p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-top: 11px;
+}
+.stubby-club-image{
+  zoom: 32%;
+}
+.image1234{
+ zoom: 22%;
+}
+.image-show123{
+ zoom: 19%;
+}
+
+.april-featured{
+width: 100%;
+height: 181px;
+}
+.april{
+font-size: 20px;
+ line-height: 44px;
+ padding: 19px 0px 0px 43px;
+}
+.april,.featured-img{
+zoom: 20%;
+position: relative;
+bottom: 66px;
+}
+.p-april-featured,.april,.featured-img{
+padding-bottom: 30px;
+}
+.my-logo-container2{
+  zoom: 23%;
+}
+.all-images22 {
+  zoom: 17%;
+}
+.all-images-img {
+  zoom: 16%;
+}
+.all-images {
+  zoom: 16%;
+  padding-left: 26px;
+}
+.images-list{
+  display: flex;
+  column-gap: 14px;
+  font-size: 7px;
+  padding-left: 11px;
+}
+.fcolldsd {
+  zoom: 43%;
+  padding-right: 77px;
+}
+#data img{
+position: relative;
+    right: 2111px;
+    zoom: 46%;
+}
+#copyright p{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-family: "Abel";
+}
+}
+
+
+
+
+
+
